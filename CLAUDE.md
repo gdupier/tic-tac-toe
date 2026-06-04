@@ -15,7 +15,13 @@ A self-contained browser Tic Tac Toe game. The entire app — HTML, CSS, and Jav
 
 GitHub Pages publishes from `main` root, so **every push to `main` auto-deploys** within ~1 minute. The served entry point must remain `index.html` at the repo root — don't rename or move it without updating the Pages config (`gh api repos/gdupier/tic-tac-toe/pages`).
 
-Per the user's standing preference, commit each meaningful change with a clean message and push to `origin` so there's always a revertible saved version.
+## Committing work (required)
+
+Commit and push regularly as you work — do not let completed work sit uncommitted. This is a hard requirement, not a suggestion: the user relies on the git history as a safety net so we never lose progress and can always revert.
+
+- After each meaningful, working change, `git commit` it locally and `git push` to `origin` (`main`).
+- Write clean, descriptive commit messages: a concise summary line stating what changed and why.
+- Don't batch unrelated changes into one commit, and don't leave the working tree dirty at the end of a task.
 
 ## Architecture
 
