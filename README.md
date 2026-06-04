@@ -1,6 +1,10 @@
 # Tic Tac Toe
 
-A self-contained Tic Tac Toe game that runs in any web browser — no installation, no dependencies. Just open `tic-tac-toe.html`.
+A self-contained Tic Tac Toe game that runs in any web browser — no installation, no dependencies.
+
+**▶ Play it online: https://gdupier.github.io/tic-tac-toe/**
+
+Or just open `index.html` locally.
 
 ## Features
 
@@ -14,7 +18,7 @@ A self-contained Tic Tac Toe game that runs in any web browser — no installati
 
 ## How to play
 
-Double-click `tic-tac-toe.html` (or open it in your browser). Pick a mode at the top, then click a cell to make your move.
+Visit the [live site](https://gdupier.github.io/tic-tac-toe/), or double-click `index.html` to open it locally. Pick a mode at the top, then click a cell to make your move.
 
 ## Tech
 
